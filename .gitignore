@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Logs and local editor settings
+*.log
+.idea/
+.vscode/
+
+# Original company datasets — keep local until approved for sharing
+/data/
+
+# Local database backups and dumps
+*.dump
+*.backup
+*.bak
+
+# Local ingestion test files
+/backend/*_test.csv
+/backend/ingestion_smoke_test.csv
