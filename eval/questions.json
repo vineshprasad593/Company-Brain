@@ -1,0 +1,15 @@
+[
+  {"q": "How many employees are in HR?", "role": "employee", "route": "sql", "type": "sql", "contains": ["74"]},
+  {"q": "How many orders are delayed?", "role": "finance", "route": "sql", "type": "sql", "contains": ["176"]},
+  {"q": "What is our profit this year?", "role": "finance", "route": "sql", "type": "sql", "contains": ["loss"]},
+  {"q": "Who has approval authority of 5 lakh or more?", "role": "employee", "route": "sql", "type": "sql", "contains": ["cut off"]},
+  {"q": "What are the steps to process a refund?", "role": "employee", "route": "rag", "type": "rag", "contains": ["Verify", "Notify"]},
+  {"q": "Refunds above what amount need approval?", "role": "employee", "route": "rag", "type": "rag", "contains": ["50,000"]},
+  {"q": "Which employees can approve refunds above 50000?", "role": "employee", "route": "hybrid", "type": "hybrid", "contains": ["1 lakh", "Divya Verma", "Vijay Gupta"]},
+  {"q": "Who is allowed to approve orders above 2.5 lakh?", "role": "employee", "route": "hybrid", "type": "hybrid", "contains": ["2.5 lakh"]},
+  {"q": "How many days of leave do employees get?", "role": "employee", "type": "not_found", "contains": ["couldn't find"]},
+  {"q": "What is the capital of France?", "role": "employee", "type": "not_found", "contains": ["couldn't find"]},
+  {"q": "What is our profit this year?", "role": "employee", "type": "denied", "contains": ["doesn't have access"]},
+  {"q": "How many orders are delayed?", "role": "hr", "type": "denied", "contains": ["doesn't have access"]},
+  {"q": "How many orders are delayed?", "role": "intern", "type": "denied", "contains": ["doesn't have access"]}
+]
