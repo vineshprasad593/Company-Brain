@@ -32,3 +32,10 @@ __pycache__/
 # Local ingestion test files
 /backend/*_test.csv
 /backend/ingestion_smoke_test.csv
+
+# AI layer: generated database and local copy of the datasets
+company.db
+/documents/
+
+# keep the example env file tracked
+!**/.env.example
