@@ -4,3 +4,5 @@ pydantic
 python-dotenv
 sqlalchemy
 psycopg2-binary
+pandas==3.0.6
+python-multipart==0.0.32
